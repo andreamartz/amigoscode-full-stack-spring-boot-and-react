@@ -15,7 +15,7 @@ public class StudentController {
     }
 
     @GetMapping
-    public List<Student> getallStudents() {
+    public List<Student> getAllStudents() {
 //        return StudentService.getAllStudents();
         List<Student> students = List.of(
                 new Student(1L, "Jamila", "jamila@amigoscode.edu", Gender.FEMALE),
